@@ -1,0 +1,68 @@
+.header{
+    display: flex;
+    flex-direction: row; 
+    position: relative;
+    margin-left: 80%;   
+    height: 50px;
+    }
+.connexion{
+   
+   margin: 3px;
+    
+}
+.imgGoogle{
+    display: flex;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 100px;
+    
+}
+.barreRecherche{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    margin-left: 35%;
+}
+
+.bas{
+    display: flex;
+    flex-direction: row;
+    margin:5px;
+    padding: 5px;
+    height: 30px;
+    width: 150px;
+    margin-left: 35%;
+}
+.bas #bas1{
+    margin:5px;
+}
+.bas #bas2{
+    margin:5px;
+}
+.Langue{
+    
+    position: relative;
+    margin-left: 35%;
+    
+}
+.pays{
+    background-color: rgb(184, 182, 182);
+    padding: 2px;
+    position: fixed;
+    bottom: 5%;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0%;
+    background-color: rgb(184, 182, 182);
+    }
+body{
+    display: block;
+    background-color: white;
+    margin: 0%;
+    font-size: 81.25%;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
